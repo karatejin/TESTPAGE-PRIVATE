@@ -3,33 +3,40 @@
     width: 100%;    
 }
 .main{
-
+    margin-top: 250px;
     font-size: 50px;
-   text-align: center;
-   background-repeat: no-repeat;
+    text-align: center;
+    background-repeat: no-repeat;
 }
 
 .word p{
+    margin: 8px 0px 24px;
     background-repeat: no-repeat;
     text-align: center;
     font-size: 24px;
 }
 
 .email-login-button{    
-    margin-left: 620px;
+    margin: 0px auto;
     color: white;
     font-size: 16px;    
     border-radius: 5px;
-    width: 468px;
+    width: 500px;
     height: 48px;
     background: #816BFF;
     background-repeat: no-repeat;
     background-position: 50%;       
 }
+
+.email-login-button a{
+    color: white;
+}
+
 .main_b{
     margin: 24px 0px 0px;
 }
 .b1{
+    padding-left: 40px;
     font-size: 16px;
     border: none;
     color: white;
@@ -42,4 +49,11 @@
     color: white;
     background: none;
     text-align: inherit;
+}
+
+.b1 a{
+    color: white;
+}
+.b2 a{
+    color: white;
 }
