@@ -1,15 +1,16 @@
 body{
     background:url(/img/login-background1.jpg) repeat;
     width: 100%;
-    background-size: auto 100%;
-    animation:displace 35s linear infinite;
+    height: auto;
+    /* background-size: auto 100%; */
+    animation: displace 20s linear infinite;
     } 
-   @keyframes displace{
-    from { background-position: center 0px;
-    } to { background-position-x: center 900px}
+@keyframes displace{
+    from { background-position-x: center 900px;
+    } to { background-position: center 0px}
     }
 
- #wrap {
+#wrap {
     width: 100%;    
 }
 .main{
@@ -31,7 +32,8 @@ body{
     font-size: 1.5rem;
 }
 .email-b{
-    height: 48px    ;
+    height: 48px;
+    
 }
 .email-login-button img{
     padding-left: 15px;
@@ -46,10 +48,17 @@ body{
     border-radius: 5px;
     width: 500px;
     height: 48px;
+    cursor: pointer;
     background: #816BFF;
     background-repeat: no-repeat;
     background-position: 50%;       
 }
+
+.email-login-button:hover{
+    background-color: rgb(110, 88, 255);
+}
+
+
 
 .email-login-button a{
     padding-left: 160px;
@@ -60,8 +69,14 @@ body{
 .main_b{
     margin: 24px 0px 0px;
 }
+
+.main_b a{
+    color: white;
+}
+
+
 .b1{
-    padding-left: 40px;
+    padding-left: 30px;
     font-weight: bold;
     font-size: 16px;
     border: none;
@@ -79,9 +94,4 @@ body{
     text-align: inherit;
 }
 
-.b1 a{
-    color: white;
-}
-.b2 a{
-    color: white;
-}
+
